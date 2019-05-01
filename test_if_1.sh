@@ -9,9 +9,9 @@
 
 echo "please input yes/no explain now time"
 read curtime
-if [ $curtime = 'yes' ];then
+if [ "$curtime" = 'yes' ];then
 	echo "cur time is morning"
-elif [ $curtime = 'no' ];then
+elif [ "$curtime" = 'no' ];then
 	echo "cur time is afternoon"
 else
 	echo "input error"
