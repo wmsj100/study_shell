@@ -1,0 +1,6 @@
+1990 Jack was 8 yes old
+System was reboot!
+this is line 3!
+This year is 2019
+0x7f568900:15678aa0 aaff0000 12345678
+56008800 0x34341100 20193344 0x9090aabb ret_func

@@ -1,0 +1,10 @@
+A
+B
+D
+
+1. cat word.txt | grep "\b[12][0-9]\{3\}\b"
+1990 Jack was 8 yes old
+This year is 2019
+2. cat word.txt | grep "\b2[0-9]\{3\}\b"
+This year is 2019
+
