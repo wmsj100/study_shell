@@ -1,0 +1,10 @@
+words.txt
+
+:Author: pi
+:Email: pi@raspberrypi
+:Date: 2019-05-03 00:09
+
+hello world
+wmsj100 WMSJ100
+WmSj1000asdf
+good word gold metal
