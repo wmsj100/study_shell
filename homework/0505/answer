@@ -5,6 +5,39 @@ D
 1. cat word.txt | grep "\b[12][0-9]\{3\}\b"
 1990 Jack was 8 yes old
 This year is 2019
+
 2. cat word.txt | grep "\b2[0-9]\{3\}\b"
 This year is 2019
 
+3. cat word.txt | grep "[,.?;:\!]"
+System was reboot!
+this is line 3!
+0x7f568900:15678aa0 aaff0000 12345678
+
+4. cat word.txt | grep "[[:xdigit:]]\{8\}.*[^[:alpha:]_]$"
+0x7f568900:15678aa0 aaff0000 12345678
+
+5. cat word.txt | grep "[[:xdigit:]]\{8\}.*[[:alpha:]_]$"
+56008800 0x34341100 20193344 0x9090aabb ret_func
+
+6. cat word.txt | grep "^[A-Z]"
+System was reboot!
+This year is 2019
+
+7. cat word.txt | grep -v "0x"
+1990 Jack was 8 yes old
+System was reboot!
+this is line 3!
+This year is 2019
+
+8. cat word.txt | grep "[a-z]" | grep "[A-Z]"
+1990 Jack was 8 yes old
+System was reboot!
+This year is 2019
+
+9. cat word.txt | grep "^[[:alpha:]].*[0-9]$"
+This year is 2019
+
+11. ps -ajxf | grep "Testbin"
+ 1935  2305  2304  1935 pts/2     2304 S+    1000   0:00              \_ grep --color=auto Testbin
+ 
