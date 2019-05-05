@@ -38,6 +38,8 @@ This year is 2019
 9. cat word.txt | grep "^[[:alpha:]].*[0-9]$"
 This year is 2019
 
+10.  
+
 11. ps -ajxf | grep "Testbin"
  1935  2305  2304  1935 pts/2     2304 S+    1000   0:00              \_ grep --color=auto Testbin
  
