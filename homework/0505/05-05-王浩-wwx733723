@@ -19,7 +19,7 @@ this is line 3!
 4. cat word.txt | grep "[[:xdigit:]]\{8\}.*[^[:alpha:]_]$"
 0x7f568900:15678aa0 aaff0000 12345678
 
-5. cat word.txt | grep "[[:xdigit:]]\{8\}.*[[:alpha:]_]$"
+5. cat word.txt | grep "[[:xdigit:]]\{8\}.*[[:alpha:]_][[:alnum:]0-9]\+$"
 56008800 0x34341100 20193344 0x9090aabb ret_func
 
 6. cat word.txt | grep "^[A-Z]"
